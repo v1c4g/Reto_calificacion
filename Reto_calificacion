@@ -1,0 +1,17 @@
+https://replit.com/join/dsbgfotyub-victoriagomez3
+#Victoria Gomez Lopez-A00573409
+
+def calificacion():
+ puntuacion=float(input("introduce la puntuacion del   examen"))
+ asignaciones=float(input("introduce el numero de      asiganciones completadas"))
+ participacion=input("el alumno participo SI o No:")
+  
+ if puntuacion>=70 and asignaciones>=5:
+   print("aprobado")
+ elif puntuacion<70 and participacion=="SI":
+   print("aprobado")
+ else:
+  print("reprobado")
+calificacion() 
+
+  
